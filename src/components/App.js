@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Title, Input } from 'components';
+import { Wrapper, Title, Input, Button } from 'components';
 
 class App extends React.Component {
   render() {
@@ -19,6 +19,8 @@ class App extends React.Component {
           // value="Hi There!" // error
           defaultValue="Hi There!" 
         />
+        <Button>Normal</Button>
+        <Button primary>Primary</Button>
       </React.Fragment>
     );
   }
