@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Title, Input, Button, StyledLink } from 'components';
+import { Wrapper, Title, Input, Button, StyledLink, TomatoButton } from 'components';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class App extends React.Component {
@@ -21,6 +21,8 @@ class App extends React.Component {
           />
           <Button>Normal</Button>
           <Button primary>Primary</Button>
+          <TomatoButton>Tomato</TomatoButton>
+
           <br />
           <h2>Link</h2>
           <Link to="/">Go to home</Link>
